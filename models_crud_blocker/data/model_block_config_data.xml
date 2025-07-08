@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <record id="config_product_template" model="model.block.config">
+    <field name="model_id" ref="product.model_product_template"/>
+    <field name="block_create">1</field>
+    <field name="block_write">1</field>
+    <field name="block_unlink">1</field>
+  </record>
+
+  <record id="config_product_product" model="model.block.config">
+    <field name="model_id" ref="product.model_product_product"/>
+    <field name="block_create">1</field>
+    <field name="block_write">1</field>
+    <field name="block_unlink">1</field>
+  </record>
+
+  <record id="config_product_category" model="model.block.config">
+    <field name="model_id" ref="product.model_product_category"/>
+    <field name="block_create">1</field>
+    <field name="block_write">1</field>
+    <field name="block_unlink">1</field>
+  </record>
+
+  <record id="config_uom_uom" model="model.block.config">
+    <field name="model_id" ref="uom.model_uom_uom"/>
+    <field name="block_create">1</field>
+    <field name="block_write">1</field>
+    <field name="block_unlink">1</field>
+  </record>
+</odoo>
